@@ -1,0 +1,109 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+  margin: 10px 30px;
+}
+
+.search-bar {
+  border: 1px solid #ced4da;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 600px;
+  font-weight: lighter;
+  border-radius: 15px;
+  display: flex;
+}
+
+.search-field {
+  width: 360px;
+}
+
+.weather-app {
+  border: 1px solid #ced4da;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 15px;
+}
+
+.search-button {
+  background: black;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 12px;
+  padding: 6px 20px;
+  transition: all 200ms ease-in-out;
+}
+
+.search-button:hover {
+  background: #fff;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.current-location-button {
+  background: black;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 12px;
+  padding: 6px 20px;
+  transition: all 200ms ease-in-out;
+}
+
+.current-location-button:hover {
+  background: #fff;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: left;
+  margin: 10px 30px;
+}
+
+.today {
+  font-size: 45px;
+  max-width: 400px;
+  text-align: left;
+  margin: 10px 20px;
+}
+
+.units {
+  font-size: 15px;
+  text-align: left;
+  position: relative;
+  top: -22px;
+}
+
+.days {
+  max-width: 800px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.icons {
+  max-width: 800px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.temperatures {
+  max-width: 800px;
+  margin: 20px 0px;
+  text-align: center;
+}
